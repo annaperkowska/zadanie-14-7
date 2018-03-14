@@ -1,0 +1,27 @@
+{
+  "name": "zadanie-14-7",
+  "version": "1.0.0",
+  "description": "Testowy package.json",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[B\u001b[B\u001b[B\u001b[A\u001b[A\u001b[A"
+  },
+  "keywords": [
+    "["
+  ],
+  "author": "annaperkowska",
+  "license": "ISC",
+  "dependencies": {
+    "babel-standalone": "^6.26.0",
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
