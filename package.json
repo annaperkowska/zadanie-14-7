@@ -5,16 +5,10 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-    "build": "babel src -d lib"
+    "build": "babel script.js -d lib",
+    "start": "http-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "\u001b[B\u001b[B\u001b[B\u001b[A\u001b[A\u001b[A"
-  },
-  "keywords": [
-    "["
-  ],
+  "keywords": [],
   "author": "annaperkowska",
   "license": "ISC",
   "dependencies": {
@@ -22,6 +16,8 @@
     "colors": "^1.1.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "http-server": "^0.11.1"
   }
 }
